@@ -10,8 +10,15 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "@udecode/plate": "^11.2.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "slate": "^0.81.0",
+    "slate-history": "^0.66.0",
+    "slate-hyperscript": "^0.77.0",
+    "slate-react": "^0.81.0",
+    "styled-components": "^5.3.5",
+    "styled-icons": "^10.45.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
@@ -27,6 +34,7 @@
     "@types/babel__core": "^7",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "@types/styled-components": "^5",
     "@vitejs/plugin-react": "^1.3.0",
     "babel-loader": "^8.2.5",
     "typescript": "^4.6.3",
